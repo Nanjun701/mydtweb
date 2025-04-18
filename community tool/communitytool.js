@@ -3,9 +3,9 @@ const questions = [
     {
       question: "Q1: Which flavor do you like?",
       answers: {
-        A: { text: "Salty", scores: { a:1,b:1,c:1,d:0,e:0,f:0,g:1,h:1 }},
+        A: { text: "Salty", scores: { a:0,b:1,c:1,d:0,e:0,f:0,g:1,h:1 }},
         B: { text: "Sweet", scores: { a:0,b:0,c:0,d:1,e:1,f:1,g:0,h:0 }},
-        C: { text: "Sour",  scores: { a:1,b:1,c:1,d:0,e:0,f:0,g:0,h:0 }},
+        C: { text: "Sour",  scores: { a:0,b:1,c:0,d:0,e:0,f:0,g:0,h:0 }},
         D: { text: "Spicy", scores: { a:1,b:1,c:0,d:0,e:0,f:0,g:0,h:1 }},
         E: { text: "All",   scores: { a:1,b:1,c:1,d:1,e:1,f:1,g:1,h:1 }},
       },
@@ -14,7 +14,7 @@ const questions = [
       question: "Q2: Would you like to try northern Chinese cuisine or southern Chinese cuisine?",
       answers: {
         A: { text: "Northern", scores: { a:0,b:0,c:1,d:0,e:0,f:0,g:0,h:0 }},
-        B: { text: "Southern", scores: { a:1,b:1,c:1,d:0,e:1,f:1,g:1,h:1 }},
+        B: { text: "Southern", scores: { a:1,b:1,c:0,d:1,e:1,f:1,g:1,h:1 }},
       },
     },
     {
@@ -27,15 +27,15 @@ const questions = [
     {
       question: "Q4: Do you prefer mild-flavored food?",
       answers: {
-        A: { text: "Mild",     scores: { a:1,b:1,c:0,d:0,e:0,f:0,g:0,h:1 }},
-        B: { text: "Not mild", scores: { a:0,b:0,c:1,d:1,e:1,f:1,g:1,h:0 }},
+        A: { text: "Mild",     scores: { a:0,b:0,c:0,d:1,e:1,f:1,g:1,h:0 }},
+        B: { text: "Not mild", scores: { a:1,b:1,c:0,d:0,e:0,f:0,g:0,h:1 }},
       },
     },
     {
       question: "Q5: What type of food would you like to try?",
       answers: {
-        A: { text: "Carbohydrates", scores: { a:1,b:0,c:1,d:1,e:0,f:0,g:1,h:0 }},
-        B: { text: "Vegetables",    scores: { a:0,b:0,c:1,d:1,e:1,f:0,g:0,h:0 }},
+        A: { text: "Carbohydrates", scores: { a:0,b:1,c:1,d:0,e:1,f:0,g:1,h:0 }},
+        B: { text: "Vegetables",    scores: { a:0,b:0,c:1,d:1,e:1,f:1,g:0,h:0 }},
         C: { text: "Seafood",       scores: { a:0,b:0,c:1,d:1,e:1,f:1,g:1,h:0 }},
       },
     },
@@ -49,8 +49,8 @@ const questions = [
     {
       question: "Q7: Do you enjoy street snacks?",
       answers: {
-        A: { text: "Yes",             scores: { a:1,b:1,c:0,d:0,e:1,f:0,g:0,h:0 }},
-        B: { text: "Prefer sit-down", scores: { a:0,b:0,c:1,d:1,e:0,f:1,g:1,h:1 }},
+        A: { text: "Yes",             scores: { a:0,b:1,c:0,d:1,e:0,f:0,g:0,h:1 }},
+        B: { text: "Prefer sit-down", scores: { a:1,b:0,c:1,d:0,e:1,f:1,g:1,h:0 }},
       },
     },
     {
