@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Chinese Eight Major Cuisines</title>
+  <link rel="stylesheet" href="communitytoolstyle.css">
+</head>
+
+<body>
+  <div class="quiz-container">
+    <!-- Start Page -->
+    <div id="startPage">
+      <h1>Explore The Chinese Eight Major Cuisines</h1>
+      <h2>Which fits your taste?</h2>
+      <img src="Cover.jpg" class="top-image" alt="Cover"/>
+      <button id="start-button">Start</button>
+    </div>
+
+    <!-- Quiz & Result Page -->
+    <div id="quizPage" style="display: none;">
+      <!-- Questions will be injected here -->
+      <div id="quiz"></div>
+
+      <!-- Result Section -->
+      <div id="result" style="display: none;">
+        <h1 class="result-title"></h1>
+        <img id="result-image" src="" alt="Result Image"/>
+        <div class="result-text"></div>
+        <button id="restart-button">Restart Quiz</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="communitytool.js"></script>
+</body>
+</html>
+
