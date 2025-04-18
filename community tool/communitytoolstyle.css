@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Hey August';
+    src: url('fonts/Hey August.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Global styles */
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Hey August', sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Container */
+  .quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Headings */
+  h1,
+  h3 {
+    color: #fff;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  h2 {
+    color: #ff4c4c;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  /* Quiz question font size */
+  #quiz p {
+    font-size: 3rem;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  /* Emphasis text */
+  .emphasis {
+    color: #ff4c4c;
+    font-weight: bold;
+  }
+  
+  /* Center Start & Restart buttons */
+  button#start-button,
+  button#restart-button {
+    display: block;
+    margin: 20px auto;
+    background-color: #ff4c4c;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button#start-button:hover,
+  button#restart-button:hover {
+    background-color: #e63946;
+  }
+  
+  /* Quiz buttons styling */
+  .large-rectangular {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 8px auto;
+    padding: 12px 20px;
+    background-color: #222;
+    color: #fff;
+    border: 2px solid #444;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .large-rectangular:hover {
+    background-color: #333;
+    border-color: #ff4c4c;
+  }
+  
+  /* Cover image sizing */
+  .top-image {
+    width: 350px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  /* Result image styling */
+  .result-image img {
+    max-width: 100%;
+    height: auto;
+    border: 4px solid #444;
+    border-radius: 8px;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  /* Result section */
+  #result {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .result-title {
+    font-size: 1.75rem;
+    margin-bottom: 12px;
+  }
+  
+  .result-text {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+  
+  /* General img rule */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
