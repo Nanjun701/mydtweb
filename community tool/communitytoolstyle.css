@@ -5,8 +5,8 @@
     font-style: normal;
   }
   
-/* Global styles
-  html, */
+  /* Global styles */
+  html,
   body {
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@
     line-height: 1.6;
   }
   
-  /* Container
+  /* Container */
   .quiz-container {
     max-width: 800px;
     margin: 0 auto;
@@ -26,7 +26,7 @@
     align-items: center;
   }
   
-  /* Headings 
+  /* Headings */
   h1,
   h3 {
     color: #fff;
@@ -39,20 +39,20 @@
     text-align: center;
   }
   
-  /* Quiz question font size 
+  /* Quiz question font size */
   #quiz p {
     font-size: 3rem;
     margin-bottom: 16px;
     text-align: center;
   }
   
-  /* Emphasis text 
+  /* Emphasis text */
   .emphasis {
     color: #ff4c4c;
     font-weight: bold;
   }
   
-  /* Center Start & Restart buttons 
+  /* Center Start & Restart buttons */
   button#start-button,
   button#restart-button {
     display: block;
@@ -72,7 +72,7 @@
     background-color: #e63946;
   }
   
-  /* Quiz buttons styling 
+  /* Quiz buttons styling */
   .large-rectangular {
     display: block;
     width: 100%;
@@ -94,7 +94,7 @@
     border-color: #ff4c4c;
   }
   
-  /* Cover image sizing 
+  /* Cover image sizing */
   .top-image {
     width: 350px;
     max-width: 90%;
@@ -103,7 +103,7 @@
     margin: 20px auto;
   }
   
-  /* Result image styling 
+  /* Result image styling */
   .result-image img {
     max-width: 100%;
     height: auto;
@@ -113,7 +113,7 @@
     margin: 20px auto;
   }
   
-  /* Result section 
+  /* Result section */
   #result {
     text-align: center;
     margin-top: 30px;
@@ -129,7 +129,7 @@
     margin: 20px 0;
   }
   
-  /* General img rule 
+  /* General img rule */
   img {
     max-width: 100%;
     height: auto;
