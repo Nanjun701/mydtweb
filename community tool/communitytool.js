@@ -152,7 +152,7 @@ const questions = [
   
     // 填充内容
     document.querySelector('.result-title').innerText = data.title;
-    document.getElementById('result-image').src       = `images/${data.img}`;
+    document.getElementById('result-image').src       = `Images/${data.img}`;
     document.querySelector('.result-text').innerText  = data.desc;
   }
   
