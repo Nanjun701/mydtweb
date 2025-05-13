@@ -55,7 +55,7 @@ elementBtns.forEach(btn => {
     elementBtns.forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
 
-    const resp = await fetch("/digital divination/positions.json");
+    const resp = await fetch("digital divination/positions.json");
     const positions = await resp.json();
 
     const list  = positions[chosenSpirit][chosenElement];
