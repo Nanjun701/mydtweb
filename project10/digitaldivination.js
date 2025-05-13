@@ -77,7 +77,7 @@ elementBtns.forEach(btn => {
     btn.classList.add("active");
 
     // 加载并随机选职衔
-    const resp = await fetch("/project10/positions.json");
+    const resp = await fetch("project10/positions.json");
     const positions = await resp.json();
     const list  = positions[chosenSpirit][chosenElement];
     const title = list[Math.floor(Math.random() * list.length)];
