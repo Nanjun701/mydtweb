@@ -1,0 +1,68 @@
+{
+  "deer": {
+    "metal": [
+      "General of the Ninefold Titanium Armor, leads the Jade Court's steel legion, guards the ninefold clouds, and repels otherworldly invaders.",
+      "Cloudbound Forest Patrol Envoy, patrols the celestial woodlands, upholds metal-guard order, and secures the heavenly borders."
+    ],
+    "wood": [
+      "Verdant Grove Magistrate, oversees the governance of the Jade Court's forests, coordinating wood-spirit growth and resource allocation.",
+      "Falling Leaf Acolyte, serves the Grove Magistrate, assisting in forest affairs and protecting arboreal life."
+    ],
+    "water": [
+      "Celestial Spring Overseer, monitors the sacred springs'flow, allocates water-spirit resources, and ensures aquatic balance.",
+      "Trickling Stream Scout, delivers water-realm intelligence and inspects all holy springs and their protected zones."
+    ],
+    "fire": [
+      "Inferno Prison Commander, commands the flame legion, maintains fire-domain order, and quells any fiery disasters.",
+      "Ember Warder, guards the primal fire source, preventing stray embers from igniting chaos."
+    ],
+    "earth": [
+      "Mountain Ward Protector, stationed at the earthly gate, supervises the ley lines and defends against terrestrial calamities.",
+      "Wildsoil Recon Ranger, surveys forbidden wilds, detects subterranean disturbances, and alerts the Protector."
+    ]
+  },
+  "dragon": {
+    "metal": [
+      "Imperial Armor Warlord, leads the Dragon Palace's armored battalions, oversees weapon forging, and devises battlefield tactics.",
+      "Fortress Iron Guard, defends the palace stronghold, conducts fortress patrols, and executes emergency security."
+    ],
+    "wood": [
+      "Royal Timber Commander, manages the palace's sacred groves, coordinating spirit-tree cultivation and forestry stewardship.",
+      "Maple Shadow Sentinel, attends the Timber Commander, carrying out forest surveillance and spirit-tree inspections."
+    ],
+    "water": [
+      "Abyssal Admiral, commands the ocean legions, defends aquatic realms, and oversees naval patrols.",
+      "Tidewave Envoy, assists the Admiral in coordinating tides and fleet movements, relaying vital sea-condition reports."
+    ],
+    "fire": [
+      "Stellar Flame Ritual Master, presides over palace fire ceremonies, manages ritual fire sources, and arranges ceremonial flares.",
+      "Ember Pilgrim, monitors post-ritual embers, ensuring ceremonial fires do not spread beyond control."
+    ],
+    "earth": [
+      "Terrene Grand Surveyor, oversees ley-line expansion and mineral surveys, coordinating all court soil operations.",
+      "Golden Soil Custodian, patrols the palace's earthen districts, monitors geological shifts, and purifies corrupted land."
+    ]
+  },
+  "crane": {
+    "metal": [
+      "Celestial Foundry Overseer, supervises the heavenly metalworks and the crafting of divine weapons in the celestial forges.",
+      "Frost Iron Attendant, assists the Overseer with metal smelting, furnace temperature control, and casting inspections."
+    ],
+    "wood": [
+      "Frostwood Magistrate, leads the frost-forest spirits, governs the icy woodlands, and protects the sacred groves.",
+      "Forest Whisper Envoy, moves silently through hidden woods, gathering intelligence on spirit trees and looming threats."
+    ],
+    "water": [
+      "Moonlit Tide Commander, commands the nocturnal lake guard, secures waterways at night, and grants safe passage.",
+      "Ripple Warder, guards the lunar pool's surface, maintaining water serenity and spring purity."
+    ],
+    "fire": [
+      "Flamefeather Ritual Priest, conducts sacred fire-feather ceremonies and brews elixirs, overseeing all flame rites.",
+      "Shadow Ember Page, escorts the Priest, executing clandestine flame ceremonies and night-time watch duties."
+    ],
+    "earth": [
+      "Earthspirit Guardian General, safeguards the celestial earth currents, suppresses malevolent stones, and wards off land disasters.",
+      "Withered Soil Custodian, patrols barren zones, enforces soil stewardship, and monitors corrupt energies."
+    ]
+  }
+}

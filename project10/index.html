@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jade Court Mandate</title>
+  <style>
+    @font-face {
+      font-family: 'JapanWave';
+      src: url('Japan wave.ttf') format('truetype');
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-family: sans-serif;
+    }
+    
+    body.cover-bg {
+      background: url('天庭.png') no-repeat center center fixed;
+      background-size: cover;
+    }
+    body.main-bg {
+      background-image: url('天庭2.png');
+      background-size: cover;
+    }
+    #cover {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      background: rgba(0,0,0,0.4);
+    }
+    #main {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      background: rgba(0,0,0,0.4);
+    }
+    #cover h1 {
+      font-family: 'JapanWave'; font-size: 60px; color: #fff;
+      text-shadow: 0 0 5px rgba(0,0,0,0.7); margin-bottom: 40px;
+    }
+    #cover .intro {
+      font-size: 18px; color: #fff; max-width: 600px;
+      margin: 0 40px 30px; line-height: 1.5;
+      text-shadow: 0 0 5px rgba(0,0,0,0.7);
+    }
+    #cover button#start {
+      font-family: 'JapanWave'; font-size: 36px;
+      border: none; background: transparent; color: #fff;
+      cursor: pointer; transition: transform .2s;
+    }
+    #cover button#start:hover { transform: scale(1.1); }
+
+    
+
+    #main { display: none; padding: 20px; }
+    .step { display: none; }
+    .step.active { display: block; }
+
+   h1.title {
+  font-family: 'JapanWave';
+  font-size: 36px;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0,0,0,0.7);
+  margin: 60px auto 40px; 
+  max-width: 1200px;
+  text-align: center;
+}
+
+
+    button.choice {
+      margin: 10px; padding: 0; border: none; background: transparent;
+      cursor: pointer; transition: transform .2s;
+    }
+    button.choice img {
+      width: 300px; height: 500px; object-fit: contain; display: block;
+    }
+    button.choice:hover img { transform: scale(1.1); }
+
+    button.choice2 {
+      margin: 10px; padding: 0; border: none; background: transparent;
+      cursor: pointer; transition: transform .2s;
+    }
+    button.choice2 img {
+      width: 240px; height: 360px; object-fit: cover; display: block;
+    }
+    button.choice2:hover img { transform: scale(1.1); }
+
+    #step4 h1.title {
+      opacity: 1; transition: opacity 2s ease;
+    }
+    #step4 img {
+      width: 400px; height: auto; opacity: 1;
+      transition: opacity 2s ease; margin-top: 50px;
+    }
+
+ 
+    #step3 {
+  position: relative;
+}
+
+#result {
+  position: absolute;
+  top: 130%;       
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;      
+  max-width: 600px;
+  text-align: center; 
+  white-space: normal; 
+  line-height: 1.5;
+  font-family: 'JapanWave';
+      font-size: 30px;
+      color: #fff; text-shadow: 0 0 5px rgba(0,0,0,0.7);
+      margin-bottom: 20px;
+}
+    p {
+      color: #fff;
+      margin-bottom: 20px;
+    }
+
+  </style>
+</head>
+<body class="cover-bg">
+  
+  <div id="cover">
+    <h1>Jade Court Mandate</h1>
+    <p class="intro">
+      You were once an Immortal of the Jade Court; for your transgression you were cast down to the mortal realm to undergo your trial.
+      Upon triumphant completion, you shall return to the Jade Court to continue your immortal life… I know which Immortal you once were.
+    </p>
+    <button id="start">Start</button>
+  </div>
+
+
+
+
+  <div id="main">
+    <div id="step1" class="step">
+      <h1 class="title">Choose the Guardian Spirit that Resonates Most with You</h1>
+      <button class="choice" data-spirit="deer"><img src="鹿灵.png" alt="deer"></button>
+      <button class="choice" data-spirit="dragon"><img src="龙灵.png" alt="dragon"></button>
+      <button class="choice" data-spirit="crane"><img src="鹤灵.png" alt="crane"></button>
+    </div>
+
+
+
+    <div id="step2" class="step">
+      <h1 class="title">Which type of energy are you usually best at harnessing?</h1>
+      <p>For example, are you especially skilled at swimming? Or do you have a fondness for flowers and plants?</p>
+      <button class="choice2" data-element="metal"><img src="金.png" alt="metal"></button>
+      <button class="choice2" data-element="wood"><img src="木.jpg" alt="wood"></button>
+      <button class="choice2" data-element="water"><img src="水.jpg" alt="water"></button>
+      <button class="choice2" data-element="fire"><img src="火.jpg" alt="fire"></button>
+      <button class="choice2" data-element="earth"><img src="土.jpg" alt="earth"></button>
+    </div>
+
+
+
+    <div id="step4" class="step">
+      <h1 id="handsTitle" class="title">
+        Join your hands; feel the divine power hidden within you, and your primordial spirit will reveal your true identity.
+      </h1>
+      <img id="handsImg" src="/project10/hands.png" alt="hands in prayer">
+    </div>
+
+
+
+    <div id="step3" class="step">
+      <h1 class="title">Your Divination</h1>
+      <div id="result">Contemplating your fate…</div>
+      <p>The results are for entertainment purposes only and should not be taken seriously.</p>
+    </div>
+  </div>
+
+  <script src="/project10/digitaldivination.js"></script>
+</body>
+</html>
